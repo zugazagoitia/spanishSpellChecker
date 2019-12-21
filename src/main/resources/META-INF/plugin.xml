@@ -1,5 +1,5 @@
 <idea-plugin>
-    <id>com.zugazagoitia.spanish-speell-checker</id>
+    <id>com.zugazagoitia.spanishSpellChecker</id>
     <name>WORKING - Spell Checker Spanish Dictionary</name>
     <version>1.0</version>
     <vendor email="alberto@zugazagoitia.com" url="https://zugazagoitia.com">Alberto Zugazagoitia</vendor>
