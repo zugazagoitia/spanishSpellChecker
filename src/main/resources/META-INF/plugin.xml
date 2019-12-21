@@ -1,0 +1,30 @@
+<idea-plugin>
+    <id>com.zugazagoitia.spanish-speell-checker</id>
+    <name>WORKING - Spell Checker Spanish Dictionary</name>
+    <version>1.0</version>
+    <vendor email="alberto@zugazagoitia.com" url="https://zugazagoitia.com">Alberto Zugazagoitia</vendor>
+
+    <description><![CDATA[
+
+      <p>[EN] Simple plugin to add spell checking support to the IntelliJ platform.</p>
+<p>Dictionary file from the outdated <a href="https://plugins.jetbrains.com/plugin/7851-spell-checker-spanish-dictionary">Spell Checker Spanish Dictionary</a>&nbsp;by&nbsp;<em>Sergio de EOM Design Group</em>&nbsp;</p>
+<p>[ES] Sencillo plugin para a&ntilde;adir soporte de correci&oacute;n de errores de escritura a la plataforma IntelliJ.</p>
+<p>Archivo de diccionario reusado del antiguo y desactualizado plugin&nbsp;<a href="https://plugins.jetbrains.com/plugin/7851-spell-checker-spanish-dictionary">Spell Checker Spanish Dictionary</a>&nbsp;por&nbsp;<em>Sergio de EOM Design Group</em>&nbsp;</p>
+
+    ]]></description>
+
+    <change-notes><![CDATA[
+     Initial release, nothing important here.
+    ]]>
+    </change-notes>
+
+    <idea-version since-build="173.0"/>
+
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <postStartupActivity implementation="com.zugazagoitia.spanishSpellChecker.SpanishDict" />
+    </extensions>
+
+</idea-plugin>
